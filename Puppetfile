@@ -6,6 +6,7 @@ forge "http://forge.puppetlabs.com"
 mod "puppetlabs/stdlib",      '4.19.0'
 mod "puppetlabs/concat",      '4.0.1'
 mod "puppetlabs/apache",	'2.0.0'
+mod "puppetlabs/motd",		'1.4.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
