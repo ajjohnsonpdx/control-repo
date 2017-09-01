@@ -33,3 +33,9 @@ node default {
   		content => "Hello world!/n",
 	}
 }
+
+node p8rsfmzs67nbcvv.delivery.puppetlabs.net {
+	class { 'motd':
+                content => "Hello galaxy!/n",
+        }
+}
