@@ -35,7 +35,5 @@ node default {
 }
 
 node p8rsfmzs67nbcvv.delivery.puppetlabs.net {
-	class { 'motd':
-                content => "Hello galaxy!/n",
-        }
+	include role::webserver
 }
